@@ -1,0 +1,26 @@
+{
+  "name": "return-action",
+  "version": "1.0.0",
+  "description": "Let web page supports return action like native app.",
+  "main": "src/returnAction.js",
+  "scripts": {
+    "build": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eshengsky/return-action.git"
+  },
+  "author": "Sky.Sun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eshengsky/return-action/issues"
+  },
+  "homepage": "https://github.com/eshengsky/return-action#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@rollup/plugin-babel": "^5.1.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "rollup": "^2.22.1"
+  }
+}
